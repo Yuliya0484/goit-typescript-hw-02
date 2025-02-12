@@ -1,0 +1,15 @@
+.loadBtn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #2d393c;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  margin-bottom: 40px;
+
+  max-width: fit-content;
+  &:hover {
+    background-color: lightcyan;
+    color: black;
+  }
+}
