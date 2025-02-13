@@ -4,14 +4,6 @@ import ImageCard from "./ImageCard";
 import s from "./ImageGallery.module.css";
 import { Image } from "../App/App.types";
 
-// interface Image {
-//   id: string;
-//   urls: {
-//     small: string;
-//   };
-//   alt_description?: string;
-// }
-
 interface ImageGalleryProps {
   images: Image[];
   onImageClick: (image: Image) => void;
