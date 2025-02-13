@@ -24,19 +24,16 @@ a:hover {
 
 body {
   margin: 0;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: rgb(32, 95, 159);
 }
 
 h1 {
-  font-size: 3em;
-  line-height: 1.1;
   margin: 0;
   padding: 0;
 }
-
+/* 
 button {
   border-radius: 8px;
   border: none;
@@ -47,9 +44,9 @@ button {
   background-color: #2d393c;
   cursor: pointer;
   transition: border-color 0.25s;
-}
+} */
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -60,12 +57,17 @@ button {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
 
 .gallery-box {
-  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .title {
-  text-shadow: 5px 3px 4px;
+  font-size: 42px;
+  font-weight: 600;
+  text-shadow: 3px 3px 4px;
   font-style: italic;
 }

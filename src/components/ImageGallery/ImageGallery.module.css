@@ -1,20 +1,17 @@
 .list {
-  padding: 0;
-  list-style-type: none;
-  content: "";
-  display: table;
-  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 0;
+  padding: 12px;
 }
 .card {
-  display: inline-block;
-  text-align: center;
-  width: 30%;
+  list-style-type: none;
 }
 .imageBox {
   width: 350px;
   height: 350px;
-  margin-bottom: 25px;
-  float: left;
 }
 
 .image {

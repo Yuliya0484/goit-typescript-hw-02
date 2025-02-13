@@ -1,6 +1,7 @@
+import React from "react";
 import { RotatingLines } from "react-loader-spinner";
 
-const Loader = () => (
+const Loader: React.FC = () => (
   <div>
     <RotatingLines strokeColor="#ffffff" />
   </div>
