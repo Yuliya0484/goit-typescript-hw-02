@@ -4,13 +4,6 @@ import ReactModal from "react-modal";
 import s from "./ImageModal.module.css";
 import { Image } from "../App/App.types";
 
-// interface Image {
-//   urls: {
-//     regular: string;
-//   };
-//   alt_description?: string;
-// }
-
 interface ImageModalProps {
   image: Image;
   onClose: () => void;

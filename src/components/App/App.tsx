@@ -16,12 +16,6 @@ const API_KEY = "V8Lf3HMrQev_hQ0oE91bCwgOEuF6slPv5YcvzmqFzXE";
 const BASE_URL = "https://api.unsplash.com";
 import { Image } from "./App.types";
 
-// interface Image {
-//   id: string;
-//   urls: { small: string; regular: string };
-//   alt_description: string;
-// }
-
 const App: React.FC = () => {
   const [images, setImages] = useState<Image[]>([]);
   const [query, setQuery] = useState<string>("");
